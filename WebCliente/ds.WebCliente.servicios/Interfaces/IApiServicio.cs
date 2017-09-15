@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace bd.log.servicios.Interfaces
 {
-   public interface IApiServicio
+    /*
+     * Creado por DigitalStrategy
+     * Aqui se deben crear todas las interfaces que estaran conectadas a los servicios 
+         
+             */
+    public interface IApiServicio
     {
         Task<Response> InsertarAsync<T>(T model,Uri baseAddress, string url );
         Task<Response> EliminarAsync(string id, Uri baseAddress, string url);

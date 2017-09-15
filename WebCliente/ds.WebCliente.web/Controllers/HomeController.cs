@@ -6,6 +6,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace bd.log.web.Controllers
 {
+    /*
+         * Creado por DigitalStrategy
+         * Los controladores se conectan con el proyecto de servicio para consumir los datos del WS
+             */
     public class HomeController : Controller
     {
         public IActionResult Index()
