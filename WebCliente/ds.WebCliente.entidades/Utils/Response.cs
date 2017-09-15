@@ -2,7 +2,13 @@
 
 namespace bd.log.entidades.Utils
 {
-    public  class Response
+    /*
+    Creado por DigitalStrategy
+    Las Clases Utils son clases con metodos para ser reutilizados como mensajes, Codificar, o response 
+    según sean necesarias para el proyecto
+    */
+
+    public class Response
     {
         public  bool IsSuccess { get; set; }
         public  string Message { get; set; }

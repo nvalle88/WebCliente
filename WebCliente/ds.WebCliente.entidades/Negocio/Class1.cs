@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace ds.WebCliente.entidades.Negocio
-{
-  public class Class1
+{/*
+          Creado por DigitalStrategy
+          las clases de  negocio son las enfocadas directamente con nuestra base de datos
+    */
+    public class Class1
     {
     }
 }
