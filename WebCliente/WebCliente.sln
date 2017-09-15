@@ -9,6 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ds.WebCliente.servicios", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ds.WebCliente.web", "ds.WebCliente.web\ds.WebCliente.web.csproj", "{C48164DE-F3D9-4A91-B794-E642807F64D6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1662913B-BEA4-4F3B-89A1-9D64BD1D8458}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\ServiciosWeb-master\ServiciosWeb-master\Readme.md = ..\..\..\..\Downloads\ServiciosWeb-master\ServiciosWeb-master\Readme.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
