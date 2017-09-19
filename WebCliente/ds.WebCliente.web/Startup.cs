@@ -3,12 +3,12 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using bd.log.servicios.Interfaces;
-using bd.log.servicios.Servicios;
+using ds.WebClient.service.Interfaces;
+using ds.WebClient.service.Services;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using System;
 
-namespace bd.log.web
+namespace ds.WebClient.web
 {
     public class Startup
     {
@@ -30,7 +30,7 @@ namespace bd.log.web
             // Add framework services.
             services.AddMvc();
             services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();
-            services.AddSingleton<IApiServicio, ApiServicio>();
+            services.AddSingleton<IApiService, ApiService>();
 
             //await InicializarWebApp.Inicializar("LogWebService", new Uri ("http://localhost:4000"));
 

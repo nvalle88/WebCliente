@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ds.WebCliente.entidades.Constantes
+namespace ds.WebClient.entities.Constants
 {
     /*
  Creado por DigitalStrategy

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace bd.log.entidades.Utils
+namespace ds.WebClient.entities.Utils
 {
    public static class WebApp
     {

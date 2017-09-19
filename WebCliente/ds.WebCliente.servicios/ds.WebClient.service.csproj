@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ds.WebCliente.entidades\ds.WebCliente.entidades.csproj" />
+    <ProjectReference Include="..\ds.WebCliente.entidades\ds.WebClient.entities.csproj" />
   </ItemGroup>
 
 </Project>

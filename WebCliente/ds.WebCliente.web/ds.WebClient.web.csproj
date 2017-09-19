@@ -25,11 +25,11 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ds.WebCliente.entidades\ds.WebCliente.entidades.csproj" />
-    <ProjectReference Include="..\ds.WebCliente.servicios\ds.WebCliente.servicios.csproj" />
+    <Folder Include="Controllers\MVC\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Controllers\MVC\" />
+    <ProjectReference Include="..\ds.WebCliente.entidades\ds.WebClient.entities.csproj" />
+    <ProjectReference Include="..\ds.WebCliente.servicios\ds.WebClient.service.csproj" />
   </ItemGroup>
 
 </Project>

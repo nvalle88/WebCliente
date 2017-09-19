@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace bd.log.entidades.Enumeradores
+namespace ds.WebClient.entities.Enumerators
+
 {
     /*
      Creado por DigitalStrategy
@@ -12,6 +13,6 @@ namespace bd.log.entidades.Enumeradores
  */
     public enum Aplicacion
     {
-       DsWebCliente
+       DsWebClient
     }
 }

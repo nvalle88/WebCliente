@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ds.WebCliente.entidades.ModeloTranferencia
+namespace ds.WebClient.entities.TransferModels
 {
     /*
     Creado por DigitalStrategy

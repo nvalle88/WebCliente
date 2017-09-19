@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Net.Http;
 using System.Threading.Tasks;
-using bd.log.entidades.Utils;
+using ds.WebClient.entities.Utils;
 using Newtonsoft.Json;
 
-namespace bd.log.servicios.Servicios
+namespace ds.WebClient.service.Services
 {
-    public class InicializarWebApp
+    public class InitializeWebApp
     {
        
         #region Methods

@@ -1,17 +1,17 @@
-﻿using bd.log.servicios.Interfaces;
+﻿using ds.WebClient.service.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using bd.log.entidades.Utils;
+using ds.WebClient.entities.Utils;
 using System.Threading.Tasks;
 using System.Net.Http;
 using Newtonsoft.Json;
 
-namespace bd.log.servicios.Servicios
+namespace ds.WebClient.service.Services
 {
-    public class ApiServicio : IApiServicio
+    public class ApiService : IApiService
     {
-        public async Task<entidades.Utils.Response> InsertarAsync<T>(T model, Uri baseAddress, string url)
+        public async Task<entities.Utils.Response> InsertarAsync<T>(T model, Uri baseAddress, string url)
         {
             try
             {

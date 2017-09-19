@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 
-namespace bd.log.web
+namespace ds.WebClient.web
 {
     public class Program
     {

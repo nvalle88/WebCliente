@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace bd.log.entidades.Utils
+namespace ds.WebClient.entities.Utils
 {
     /*
     Creado por DigitalStrategy
@@ -12,8 +12,8 @@ namespace bd.log.entidades.Utils
     {
         public  bool IsSuccess { get; set; }
         public  string Message { get; set; }
-        public object Resultado { get; set; }
-        public List<object> Resultados { get; set; } 
+        public object Result { get; set; }
+        public List<object> Results { get; set; } 
 
     }
 }

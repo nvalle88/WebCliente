@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.8
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ds.WebCliente.entidades", "ds.WebCliente.entidades\ds.WebCliente.entidades.csproj", "{BAA59F3D-3A63-4416-AF58-331C1BC750E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ds.WebClient.entities", "ds.WebCliente.entidades\ds.WebClient.entities.csproj", "{BAA59F3D-3A63-4416-AF58-331C1BC750E1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ds.WebCliente.servicios", "ds.WebCliente.servicios\ds.WebCliente.servicios.csproj", "{E58FF976-C31C-42C2-9272-00E1E0AEC492}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ds.WebClient.service", "ds.WebCliente.servicios\ds.WebClient.service.csproj", "{E58FF976-C31C-42C2-9272-00E1E0AEC492}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ds.WebCliente.web", "ds.WebCliente.web\ds.WebCliente.web.csproj", "{C48164DE-F3D9-4A91-B794-E642807F64D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ds.WebClient.web", "ds.WebCliente.web\ds.WebClient.web.csproj", "{C48164DE-F3D9-4A91-B794-E642807F64D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
