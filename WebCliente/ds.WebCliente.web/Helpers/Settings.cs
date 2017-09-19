@@ -1,4 +1,4 @@
-﻿namespace bd.log.web.Helpers
+﻿namespace ds.WebClient.web.Helpers
 {
     /// <summary>
     ///     Provides access to the current application's configuration file.

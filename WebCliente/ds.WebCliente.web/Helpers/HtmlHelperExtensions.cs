@@ -11,7 +11,7 @@ using ds.WebClient.web;
 
 #endregion
 
-namespace bd.log.web.Helpers
+namespace ds.WebClient.web.Helpers
 {
     public static class HtmlHelperExtensions
     {

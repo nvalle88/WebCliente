@@ -5,7 +5,7 @@ using System.ComponentModel;
 
 #endregion
 
-namespace bd.log.web.Helpers
+namespace ds.WebClient.web.Helpers
 {
     /// <summary>
     ///     Provides utility methods for converting string values to other data types.
